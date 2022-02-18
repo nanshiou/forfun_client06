@@ -203,6 +203,12 @@ html, body {
   height: 50px;
 }
 
+@media (max-width: 568px) {
+  .header .logo {
+    height: 36px;
+  }
+}
+
 .container {
   width: 80%;
   margin: 0 auto;
