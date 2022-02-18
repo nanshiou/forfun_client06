@@ -137,6 +137,9 @@ $screenwidth: 750;
     // justify-content: center;
     .logo{
         height: 50px;
+        @media (max-width:568px) {
+            height: 36px;
+        }
     }
 }
 .container{
